@@ -1,0 +1,29 @@
+// LOCAL TESTING COMMAND
+## GET ALL CONTACTS 
+GET http://localhost:3000/contacts/ 
+
+### GET CONTACT BY ID 1
+GET http://localhost:3000/contacts/69033a4c07767cb9e7ba3f51
+
+### GET CONTACT BY ID 2
+GET http://localhost:3000/contacts/69033a4c07767cb9e7ba3f52
+
+### GET CONTACT BY ID 3
+GET http://localhost:3000/contacts/69033a4c07767cb9e7ba3f53
+
+
+// PRODUCTION TESTING COMMAND
+### GET ALL CONTACTS
+GET https://cse341-project1.onrender.com/contacts/
+
+### GET CONTACT BY ID 1
+GET https://cse341-project1.onrender.com/contacts/69033a4c07767cb9e7ba3f51
+
+### GET CONTACT BY ID 2
+GET https://cse341-project1.onrender.com/contacts/69033a4c07767cb9e7ba3f52
+
+### GET CONTACT BY ID 3
+GET https://cse341-project1.onrender.com/contacts/69033a4c07767cb9e7ba3f53
+
+
+

@@ -1,0 +1,25 @@
+[
+    {
+    "firstName": "Jonathan",
+    "lastName": "Ojera",
+    "email": "jojera860@gmail.com",
+    "favoriteColor": "Black",
+    "birthday": "02/05/2004"
+    },
+
+    {
+    "firstName": "Ntulume",
+    "lastName": "Brandon",
+    "email": "brandon@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "10/10/2004"
+    },
+
+    {
+    "firstName": "Abdu",
+    "lastName": "Mansoor",
+    "email": "mansoor@gmail.com",
+    "favoriteColor": "Red",
+    "birthday": "06/01/2004"
+    }    
+]
