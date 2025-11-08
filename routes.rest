@@ -51,5 +51,32 @@ GET https://cse341-project1-y59y.onrender.com/contacts/69033a4c07767cb9e7ba3f52
 ### GET CONTACT BY ID 3
 GET https://cse341-project1-y59y.onrender.com/contacts/69033a4c07767cb9e7ba3f53
 
+### CREATE CONTACT
+POST https://cse341-project1-y59y.onrender.com/contacts/ HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Prince",
+    "lastName": "Ojera",
+    "email": "prince860@gmail.com",
+    "favoriteColor": "Magenta",
+    "birthday": "16/02/2012"
+}
+
+### UPDATE CONTACT
+PUT https://cse341-project1-y59y.onrender.com/contacts/690fb797f407862ba5e988d9 HTTP/1.1
+content-type: application/json
+
+{
+   "firstName": "Ochan",
+    "lastName": "Ojera",
+    "email": "ochan@gmail.com",
+    "favoriteColor": "Cyan",
+    "birthday": "16/08/1995" 
+}
+
+### DELETE CONTACT  
+DELETE https://cse341-project1-y59y.onrender.com/contacts/690fb797f407862ba5e988d9
+
 
 
